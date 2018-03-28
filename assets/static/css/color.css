@@ -1,0 +1,27 @@
+.fOrange { color: #F79857 !important; }
+.fGreen { color: #3EB760 !important; }
+.fGris { color: #939393 !important; }
+
+/* - - - - - COLORES - - - - - - */
+	.rosa 		{ background-color: #FA9683; }
+	.naranja 	{ background-color: #F79857; }
+	.naranjaN 	{ background-color: #ed6f47; }
+	.azul 	 	{ background-color: #00C3CC; }
+	.verde 		{ background-color: #3EB760; }
+	.verdeD 	{ background-color: #25B79B; }
+	.verdeP 	{ background-color: #1f9c82; }
+	.verdeV 	{ background-color: #10A0A0; }
+	.blanco 	{ background-color: #FFFFFF; }
+	.cafe 		{ background-color: #D8967C; }
+	.azulD 	 	{ background-color: #0099DA; }
+	.cafeD 		{ background-color: #9C7465; }
+	.cafeC 		{ background-color: #BF906A; }
+	.cafeS 		{ background-color: #C47568; }
+	.rosaD 		{ background-color: #E8A59D; }
+/* - - - - - END COLORES - - - - - - */
+
+/* - - - - - LINKS - - - - - - */
+	.naranjaL{ color: #F97319; }
+	.cafeLink{ color: #9C7465; }
+	.ok{ color: #49B567; }
+/* - - - - - LINKS - - - - - - */

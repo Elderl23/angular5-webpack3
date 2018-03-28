@@ -1,0 +1,43 @@
+<!-- col-xs-12 col-sm-3 col-md-3 col-lg-3 -->
+
+
+<div class="row center-xs middle-xs contenidoLogin">
+    <div class="col-xs-6 start-xs row center-xs">
+        <div class="col-xs start-xs card-group">
+            <div class="card">
+                <div class="card-block">
+                <img src="assets/static/images/header/biglogo.png" alt="Banco Azteca" class="png">
+                <p class="text-muted"></p>
+
+                <form [formGroup]="userForm" (ngSubmit)="login()" novalidate>
+                  <div class="input-group mb-1">
+                      <span class="input-group-addon">
+                        <i class="icon-user"></i>
+                      </span>
+                      <input type="text" id="user" class="form-control" placeholder="Usuario" formControlName="user" (keydown)="solonumeros($event)">
+                  </div>
+                  <control-messages [control]="userForm.controls.user"></control-messages>
+                  <div class="input-group mb-2">
+                      <span class="input-group-addon">
+                        <i class="icon-lock"></i>
+                      </span>
+                      <input type="password" class="form-control" placeholder="Token" formControlName="token" maxlength="6" (keydown)="solonumeros($event)">
+                  </div>
+                  <control-messages [control]="userForm.controls.token"></control-messages>
+                  <div class="row">
+                      <div class="col-xs-12 reset-padding">
+                        <button name="submit" type="submit"  id="contact-submit" class="btn btn-primary px-2" data-submit="...Sending" [disabled]="!userForm.valid">Entrar</button>
+                      </div>
+                  </div>
+                </form>
+
+              </div>
+              <div class="alertLogin" *ngIf="showAlert">
+                      {{MsgAlert}}.
+              </div>
+
+            </div>
+        </div>
+    </div>
+    
+<div *ngIf="activateLoading" class="Loading"><div class="loader"></div></div>

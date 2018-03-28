@@ -1,0 +1,139 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #2a2c36;
+    background-color: #e4e5e6;
+}
+
+.contenidoLogin{
+	width: 100%;
+	height: 100%;
+}
+.card-group{
+    max-width: 730px;
+}
+
+.card{
+	position: relative;
+    display: block;
+    margin-bottom: 0.75rem;
+    background-color: #fff;
+    border: 1px solid #d1d4d7;
+    padding: 1.5rem 1.5rem !important;
+}
+
+.card-block{
+	padding: 1.25rem;
+}
+
+h1, .h1 {
+    font-size: 2.5rem;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.text-muted {
+    color: #818a91 !important;
+}
+
+.mb-1 {
+    margin-bottom: 1rem !important;
+}
+.mb-2 {
+    margin-bottom: 1.5rem !important;
+}
+.input-group {
+    position: relative;
+    width: 100%;
+    display: table;
+    border-collapse: separate;
+}
+
+.input-group-addon:not(:last-child) {
+    border-right: 0;
+}
+.input-group-addon, .input-group-btn {
+    min-width: 40px;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.input-group-addon, .input-group-btn {
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.form-control, .daterangepicker .input-mini, .input-group > .ui-select-bootstrap > input.ui-select-search.form-control, .input-group > .ui-select-bootstrap > input.ui-select-search.form-control.direction-up {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.input-group-addon, .input-group-btn, .input-group .form-control, .input-group .daterangepicker .input-mini, .daterangepicker .input-group .input-mini, .input-group > .ui-select-bootstrap > input.ui-select-search.form-control, .input-group > .ui-select-bootstrap > input.ui-select-search.form-control.direction-up {
+    display: table-cell;
+}
+.input-group-addon {
+    margin-bottom: 0;
+    font-size: 0.875rem;
+    font-weight: normal;
+    line-height: 1.25;
+    color: #55595c;
+    text-align: center;
+    background-color: #d1d4d7;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.px-2 {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+.btn-primary, .fc-today-button {
+    color: #fff;
+    background-color: #20a8d8;
+    border-color: #20a8d8;
+}
+.btn, .fc button {
+    display: inline-block;
+    font-weight: normal;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    transition: all 0.2s ease-in-out;
+}
+
+button:disabled,
+button[disabled]{
+  opacity: 0.65; 
+  cursor: not-allowed;
+}
+
+.alertLogin{
+    color: red;
+    padding: 0 0 0 1.25rem;
+}

@@ -1,0 +1,171 @@
+
+/* FORMULARIOS*/
+
+input.mat-input-element::-webkit-input-placeholder {
+    color: #C7C7CD;
+}
+
+fieldset {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.form-group {
+    margin-bottom: 1em;
+}
+.form-group label {
+    margin-bottom: .5em;
+    text-align: left;
+    display: block;
+}
+.form-group .input-group {
+    width: 100%;
+    display: flex;
+    border-collapse: separate;
+    flex-direction: row;
+}
+.form-group .input-group .input-group-addon{
+    margin-bottom: 0;
+    font-size: 0.875em;
+    font-weight: normal;
+    line-height: 1.25;
+    color: #55595C;
+    text-align: center;
+    background-color: #D1D4D7;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    min-width: 40px;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.form-group .input-group .input-group-addon:not(:last-child) {
+    border-right: 0;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25;
+    color: #55595C;
+    background-color: #FFF;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.form-control:focus{
+    color: #55595C;
+    background-color: #FFF;
+    border-color: #4DBD74;
+    outline: none;
+}
+.icon-formulario{
+    font-size: 1.6em;
+}
+
+.content-forms-dinamicos{
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.header-forms{
+    line-height: 1.25;
+}
+
+
+select {
+    background: white url("./images/select.png") no-repeat !important;
+    background-size: 24px 20px !important;
+    background-position: right center !important;
+    border-radius: 0px !important;
+    border: 1px solid #d1d4d7 !important;
+    color: #888;
+    border: none;
+    outline: none;
+    display: inline-block;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    cursor: pointer; }
+
+.select2-container.form-control, .daterangepicker .select2-container.input-mini, .input-group > .ui-select-bootstrap > input.select2-container.ui-select-search.form-control {
+    background: transparent;
+    box-shadow: none;
+    display: block;
+    /* 1 */
+    margin: 0;
+    padding: 0;
+    line-height: 1px !important; }
+
+.select2-container .select2-choice {
+    height: 32px;
+    padding: 3px 0 0 12px;
+    border: none;
+    background: #f8f9fa; }
+
+.select2-container .select2-choice .select2-arrow {
+    right: 5px;
+    top: 4px;
+    background: #f8f9fa;
+    border: none; }
+
+.select2-container-active .select2-choice,
+.select2-container-active .select2-choices {
+    box-shadow: none; }
+
+.select2-drop {
+    color: #2a2c36;
+    border: 1px solid #d1d4d7;
+    border-radius: 0;
+    box-shadow: none; }
+
+.select2-container.select2-dropdown-open {
+    border-color: #d1d4d7 !important;
+    border-radius: 0; }
+
+.select2-container-multi .select2-choices {
+    box-shadow: none;
+    border-radius: 0 !important;
+    border: 1px solid #d1d4d7 !important;
+    background: white; }
+
+.select2-default {
+    color: #09090b !important;
+    padding-left: 12px !important; }
+
+.select2-container-multi .select2-choices .select2-search-choice {
+    padding: 3px 5px 4px 18px;
+    margin: 5px 0 3px 5px;
+    border: 1px solid #d1d4d7;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: #f8f9fa;
+    filter: none;
+    background-image: none;
+    font-size: 11px; }
+
+.select2-container-multi .select2-choices .select2-search-field input {
+    color: #2a2c36; }
+
+.select2-container-active .select2-choice,
+.select2-container-multi.select2-container-active .select2-choices {
+    border-color: #20a8d8 !important;
+    box-shadow: none; }
+
+.select2-search-choice-close {
+    background: url("../img/select2.png") right top no-repeat;
+}
+
+.text-area {
+    width: 100%;
+    height: 800px;
+}
+.tab-botones{
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+    padding: 0;
+}
+.marginBottom-1px{
+    margin-bottom: -1px;
+}

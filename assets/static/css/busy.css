@@ -1,0 +1,14 @@
+/* - - - - - IMPORTS - - - - - - */
+	@import url('font.css');
+/* - - - - - END IMPORTS - - - - - - */
+/* - - - - - IMPORTS icomoon- - - - - - */
+	@import url('icomoon.css');
+/* - - - - - END IMPORTS - - - - - - */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #2a2c36;
+    background-color: #e4e5e6;
+}

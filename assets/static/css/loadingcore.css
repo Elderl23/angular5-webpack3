@@ -1,0 +1,13 @@
+.loadingCore h1 {
+    color: #EEE;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    margin-left: 12px;
+}
+
+.fecha_Loading{
+    font-size: 11px;
+    font-weight: normal;
+}

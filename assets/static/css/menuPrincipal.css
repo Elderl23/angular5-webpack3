@@ -1,0 +1,293 @@
+/*  - - - - - - - - - - MENU PRINCIPAL - - - - - - - - - -  */
+
+.content-menu{
+    margin: 5px 0px;
+}
+
+.menu{
+    margin: 15px 0px;
+    font-size: 14px;
+    width: 350px;
+}
+.menu h4{
+    margin: 5px 0px;
+    font-weight: 600;
+}
+
+.menu p {
+    margin: 0 0 10px;
+}
+
+
+.menu a{
+    color :#6f6f6f;
+    text-decoration: none;
+
+}
+.menu a:hover{
+    color:#525252;
+    background-color: #F8F8F8;
+    transition: all 0.3s ease-in-out;
+}
+.menu-contenedor{
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 15px;
+    display: block;
+    height: 230px;
+    line-height: 0.1;
+    margin: 0 2% 4% 2%;
+    text-align: center;
+    width: 46%;
+}
+
+.menu-circulo{
+    background-color: #F8F8FF;
+    border-radius: 50%;
+    height: 100px;
+    margin: 24px auto;
+    width: 100px;
+}
+
+.menu-circulo .menu-icono{
+    font-size: 50px;
+    line-height: 1.9;
+}
+
+.menu-contenedor .menu-titulo
+{
+    font-family: inherit;
+    font-weight: 400;
+    color: #000;
+}
+.menu-contenedor .menu-descripcion{
+    color: #000;
+    opacity: 0;
+    margin-top: -15px;
+    padding: 5px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.dummy {
+    /*margin-top: 80%;*/
+}
+.thumbnail {
+    display: block;
+    padding: 4px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+    min-height: 225px;
+}
+
+a.thumbnail:hover {
+    border-color: #9D9D9D !important;
+}
+
+/*Animaciones para el icono Mantenimiento ***************************************/
+.cRojoFondo{
+    background-color: #ed5565;
+    border: 7px solid #CF000F;
+    transition: all 300ms ease-out; 
+    -webkit-transition: all 300ms ease-out; 
+}
+/*Efecto para cambiar el fondo y borde del circulo*/
+.menu a:hover > .cRojoFondo{  
+    background-color: #CF000F;
+    border: 7px solid #ed5565;
+}
+/*Color por default del icono*/
+.cRojoIco{
+    color: #CF000F;
+    transition: all 300ms ease-out; 
+    -webkit-transition: all 300ms ease-out; 
+}
+
+/*Animaciones para el icono Mantenimiento ***************************************/
+
+/*Animaciones para el icono Instituciones*/
+.cAmarilloFondo{
+    background-color: #f8ac59;
+    border: 7px solid #c57600;
+    transition: all 300ms ease-out; 
+    -webkit-transition: all 300ms ease-out; 
+}
+/*Efecto para cambiar el fondo y borde del circulo*/
+.menu a:hover > .cAmarilloFondo{
+    background-color: #c57600;
+    border: 7px solid #f8ac59;
+}
+/*Color por default del icono*/
+.cAmarilloIco{
+    color: #c57600;
+    transition: all 300ms ease-out; 
+    -webkit-transition: all 300ms ease-out; 
+}
+
+/*Animaciones para el icono Credito*/
+.cAzulFondo{
+    background-color: #1c84c6;   
+    border: 7px solid #00587A;
+    transition: all 300ms ease-out; 
+    -webkit-transition: all 300ms ease-out; 
+}
+/*Efecto para cambiar el fondo y borde del circulo*/
+.menu a:hover > .cAzulFondo{
+    background-color: #00587A;
+    border: 7px solid #1c84c6;
+}
+/*Color por default del icono*/
+.cAzulIco{
+    color:#00587A;
+    transition: all 300ms ease-out; 
+    -webkit-transition: all 300ms ease-out; 
+}
+
+
+
+/*Animaciones para el icono Seguridad*/
+.cVerdeFondo{
+    background-color: #1AB391;
+    border: 7px solid #2b7b42;
+    transition: all 300ms ease-out; 
+    -webkit-transition: all 300ms ease-out; 
+}
+/*Efecto para cambiar el fondo y borde del circulo*/
+.menu a:hover > .cVerdeFondo{
+    background-color: #2b7b42;
+    border: 7px solid #1AB391;
+}
+/*Color por default del icono*/
+.cVerdeIco{
+    color:#2b7b42;
+    transition: all 300ms ease-out; 
+    -webkit-transition: all 300ms ease-out; 
+}
+
+/*Animaciones para el icono Promociones*/
+.cMoradoFondo{
+    background-color: #a04cff;
+    border: 7px solid #5f289f;
+    transition: all 300ms ease-out; 
+    -webkit-transition: all 300ms ease-out; 
+}
+/*Efecto para cambiar el fondo y borde del circulo*/
+.menu a:hover > .cMoradoFondo{
+    background-color: #5f289f;
+    border: 7px solid #a04cff;
+}
+/*Color por default del icono*/
+.cMoradoIco{
+    color:#5f289f;
+    transition: all 300ms ease-out; 
+    -webkit-transition: all 300ms ease-out; 
+}
+
+
+
+
+/*Animaciones para el icono Captacion*/
+.cAzulClaroFondo{
+    background-color: #23c6c8;
+    border: 7px solid #0D83A0;
+    transition: all 300ms ease-out; 
+    -webkit-transition: all 300ms ease-out; 
+}
+/*Efecto para cambiar el fondo y borde del circulo*/
+.menu a:hover > .cAzulClaroFondo{
+    background-color: #0D83A0;
+    border: 7px solid #23c6c8;
+}
+/*Color por default del icono*/
+.cAzulClaroIco{
+    color:#0D83A0;
+    transition: all 300ms ease-out; 
+    -webkit-transition: all 300ms ease-out; 
+}
+
+/*Animaciones para el icono Captacion*/
+.cNaranjaFondo{
+    background-color: #ff9877;
+    border: 7px solid #FF5722;
+    transition: all 300ms ease-out; 
+    -webkit-transition: all 300ms ease-out; 
+}
+/*Efecto para cambiar el fondo y borde del circulo*/
+.menu a:hover > .cNaranjaFondo{
+    background-color: #FF5722;
+    border: 7px solid #ff9877;
+}
+/*Color por default del icono*/
+.cNaranjaIco{
+    color:#FF5722;
+    transition: all 300ms ease-out; 
+    -webkit-transition: all 300ms ease-out; 
+}
+
+
+/*Animaciones para el icono Proceso Tarjetas*/
+.cTurquezaFondo{
+    background-color: #23c6c8;
+    border: 7px solid #037a7c;
+    transition: all 300ms ease-out; 
+    -webkit-transition: all 300ms ease-out; 
+}
+/*Efecto para cambiar el fondo y borde del circulo*/
+.menu a:hover > .cTurquezaFondo{
+    background-color: #037a7c;
+    border: 7px solid #23c6c8;
+}
+/*Color por default del icono*/
+.cTurquezaIco{
+    color:#037a7c;
+    transition: all 300ms ease-out; 
+    -webkit-transition: all 300ms ease-out; 
+}
+
+
+
+/*AnimaciÃ³n para el circulo*/
+.menu a:hover >.menu-circulo{
+    -webkit-animation: sonarEffect 1.3s ease-out 75ms;
+    animation: sonarEffect 0.4s ease-out 75ms;
+    transform: scale(1.1);
+}
+
+/*AnimaciÃ³n para el icono*/
+.menu a:hover > .menu-circulo > .menu-icono{
+    font-size: 58px;
+    line-height: 1.65;
+    color: #FFF;
+    transition: all 0.3s ease-in-out;
+}
+
+/*AnimaciÃ³n para la descripcion*/
+.menu a:hover > .menu-descripcion{
+    color: #808080;
+    opacity: 1;
+    margin-top: -5px;
+}
+
+@-webkit-keyframes sonarEffect {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+@keyframes sonarEffect {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+
+/*  - - - - - - - - - - MENU PRINCIPAL - - - - - - - - - -  */
